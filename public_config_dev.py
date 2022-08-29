@@ -1,0 +1,1 @@
+CONFIG = "public config dev"

@@ -14,3 +14,5 @@ However, it might be easier to distinguish between dev and prod configs using cl
 
 ## Using environment variables
 Can store at machine-level and retrieve using `app.config.from_prefixed_env()` or store at repo-level using `dotenv` library (better). 
+\
+[Note: .env is only used in development](https://stackoverflow.com/questions/67604414/why-i-should-not-use-dotenv-in-production-mode)

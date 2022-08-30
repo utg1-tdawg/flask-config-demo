@@ -16,3 +16,5 @@ However, it might be easier to distinguish between dev and prod configs using cl
 Can store at machine-level and retrieve using `app.config.from_prefixed_env()` or store at repo-level using `dotenv` library (better). 
 \
 [Note: .env is only used in development](https://stackoverflow.com/questions/67604414/why-i-should-not-use-dotenv-in-production-mode)
+\
+[Note: even though .env is only used in dev, `load_dotenv` can still be used in prod because it looks for env vars in .env first and if .env is not present, it will look for env vars in host](https://dev.to/jakewitcher/using-env-files-for-environment-variables-in-python-applications-55a1)
